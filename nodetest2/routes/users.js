@@ -21,6 +21,7 @@ router.post('/adduser', function(req, res) {
         );
     });
 });
+
 /*
  * DELETE to deleteuser.
  */

@@ -1,22 +1,22 @@
 "use strict";
 // Userlist data array for filling in info box
 var userListData = [];
-
 // DOM Ready =============================================================
 $(document).ready(function() {
+
   // Populate the user table on initial page load
-  populateTable();
+
+    populateTable();
 
   // Username link click
   $('#userList table tbody').on('click', 'td a.linkshowuser', showUserInfo);
-
   // Add User button click
   $('#btnAddUser').on('click', addUser);
 
   // Delete User link click
   $('#userList table tbody').on('click', 'td a.linkdeleteuser', deleteUser);
-
 });
+
 
 // Functions =============================================================
 

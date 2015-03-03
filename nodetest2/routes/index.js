@@ -6,4 +6,9 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+/* GET react frontend. */
+router.get('/react', function(req, res, next) {
+  res.render('react');
+});
+
 module.exports = router;
